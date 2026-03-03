@@ -11,9 +11,9 @@ from elevation_profiler import ElevationProfiler
 
 class EmergencyResponseApp:
     def __init__(self):
-        self.elev_path = "geospatial-programming-2025-26-lemur/data/elevation/SZ.asc"
-        self.bg_path = "geospatial-programming-2025-26-lemur/data/background/raster-50k_2724246.tif"
-        self.itn_path = "geospatial-programming-2025-26-lemur/data/itn/solent_itn.json"
+        self.elev_path = "geospatial-programming-2025-26/data/elevation/SZ.asc"
+        self.bg_path = "geospatial-programming-2025-26/data/background/raster-50k_2724246.tif"
+        self.itn_path = "geospatial-programming-2025-26/data/itn/solent_itn.json"
 
     def run(self):
         try:
